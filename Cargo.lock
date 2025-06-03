@@ -28,8 +28,7 @@ dependencies = [
 [[package]]
 name = "kurbo"
 version = "0.11.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1077d333efea6170d9ccb96d3c3026f300ca0773da4938cc4c811daa6df68b0c"
+source = "git+https://github.com/taj-p/kurbo.git?rev=8c47b0bc9bbc3f5949057fccc2c179f694d482db#8c47b0bc9bbc3f5949057fccc2c179f694d482db"
 dependencies = [
  "arrayvec",
  "libm",
